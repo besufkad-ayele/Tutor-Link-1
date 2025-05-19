@@ -1,10 +1,1 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/dashboard/admin/page": "app/dashboard/admin/page.js",
-  "/dashboard/student/progress/page": "app/dashboard/student/progress/page.js",
-  "/dashboard/student/messages/page": "app/dashboard/student/messages/page.js",
-  "/help-center/page": "app/help-center/page.js",
-  "/page": "app/page.js",
-  "/dashboard/admin/users/page": "app/dashboard/admin/users/page.js",
-  "/dashboard/admin/analytics/page": "app/dashboard/admin/analytics/page.js"
-}
+{}

@@ -31,20 +31,7 @@ export default function AdminDashboard() {
               </div>
             </div>
           </CardContent>
-        </Card>Total Users
-1,248
-+12% this month
-
-Pending Approvals
-8
-Requires attention
-
-Total Revenue
-$24,850
-+8.5% from last month
-
-Active Sessions
-
+        </Card>
 
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
