@@ -29,8 +29,8 @@ import { parents, children } from "../../users/parent/schema/parent.schema";
 import { refreshTokens } from "./refresh-token-ids.storage/schema/refresh-tokens.schema";
 import { passwordResetTokens } from "./schema/password-reset-tokens.schema";
 import { randomBytes } from "crypto";
-import { MailerService } from "../../mailer/mailer.service";
-import { ConfigService } from "@nestjs/config";
+// import { MailerService } from "../../mailer/mailer.service";
+// import { ConfigService } from "@nestjs/config";
 
 interface RefreshTokenPayload extends ActiveUserData {
 	refreshTokenId: string;
@@ -61,8 +61,8 @@ export class AuthenticationService {
 		@Inject(jwtConfig.KEY)
 		private readonly jwtConfiguration: ConfigType<typeof jwtConfig>,
 		private readonly refreshTokenIdsStorage: RefreshTokenIdsStorage,
-		private readonly mailerService: MailerService,
-		private readonly configService: ConfigService
+		// private readonly mailerService: MailerService,
+		// private readonly configService: ConfigService
 	) {}
 
 	async signup(signUpDto: SignUpDto) {
@@ -598,16 +598,16 @@ export class AuthenticationService {
 				});
 
 			// Get the frontend URL from environment variables or use a default
-			const frontendUrl = this.configService.get('FRONTEND_URL') || 'http://localhost:3000';
+			// const frontendUrl = this.configService.get('FRONTEND_URL') || 'http://localhost:3000';
 
-			// Send the password reset email
-			try {
-				await this.mailerService.sendPasswordResetEmail(email, token, frontendUrl);
-				console.log(`Password reset email sent to ${email}`);
-			} catch (emailError) {
-				console.error('Failed to send password reset email:', emailError);
-				// We don't want to expose this error to the user, so we'll just log it
-			}
+			// // Send the password reset email
+			// try {
+			// 	await this.mailerService.sendPasswordResetEmail(email, token, frontendUrl);
+			// 	console.log(`Password reset email sent to ${email}`);
+			// } catch (emailError) {
+			// 	console.error('Failed to send password reset email:', emailError);
+			// 	// We don't want to expose this error to the user, so we'll just log it
+			// }
 
 			return { 
 				message: "If your email exists in our system, you will receive a password reset link.",

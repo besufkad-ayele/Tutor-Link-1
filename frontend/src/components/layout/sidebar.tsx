@@ -28,8 +28,8 @@ export function Sidebar({ className }: SidebarProps) {
     {
       label: "Dashboard",
       icon: LayoutDashboard,
-      href: "/dashboard/parent-dashboard",
-      active: pathname === "/dashboard/parent-dashboard",
+      href: "parent",
+      active: pathname === "parent",
     },
     {
       label: "Children Management",
@@ -49,12 +49,12 @@ export function Sidebar({ className }: SidebarProps) {
       href: "/dashboard/session-management",
       active: pathname === "/dashboard/session-management",
     },
-    {
-      label: "Payment Center",
-      icon: CreditCard,
-      href: "/dashboard/payment-center",
-      active: pathname === "/dashboard/payment-center",
-    },
+    // {
+    //   label: "Payment Center",
+    //   icon: CreditCard,
+    //   href: "/dashboard/payment-center",
+    //   active: pathname === "/dashboard/payment-center",
+    // },
     {
       label: "Settings",
       icon: Settings,

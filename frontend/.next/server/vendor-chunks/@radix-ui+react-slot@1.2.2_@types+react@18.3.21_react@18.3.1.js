@@ -38,15 +38,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/.pnpm/next@14.2.28_@babel+core@7.27.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
 
-const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/envy/Documents/Dev/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#Root`);
+const e0 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/bonsa/Documents/projects/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#Root`);
 
-const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/envy/Documents/Dev/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#Slot`);
+const e1 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/bonsa/Documents/projects/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#Slot`);
 
-const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/envy/Documents/Dev/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#Slottable`);
+const e2 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/bonsa/Documents/projects/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#Slottable`);
 
-const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/envy/Documents/Dev/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#createSlot`);
+const e3 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/bonsa/Documents/projects/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#createSlot`);
 
-const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/envy/Documents/Dev/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#createSlottable`);
+const e4 = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/home/bonsa/Documents/projects/Tutor-Link/frontend/node_modules/.pnpm/@radix-ui+react-slot@1.2.2_@types+react@18.3.21_react@18.3.1/node_modules/@radix-ui/react-slot/dist/index.mjs#createSlottable`);
 
 
 /***/ })

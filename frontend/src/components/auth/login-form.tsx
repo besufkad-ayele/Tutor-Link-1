@@ -112,7 +112,7 @@ export function LoginForm() {
           if (userRole === 'tutor') {
             router.push('/dashboard/tutor-dashboard');
           } else if (userRole === 'parent') {
-            router.push('/dashboard/parent-dashboard');
+            router.push('parent');
           } else if (userRole === 'admin') {
             router.push('/admin-dashboard');
           } else if (userRole === 'child') {
